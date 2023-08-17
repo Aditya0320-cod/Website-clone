@@ -38,19 +38,24 @@
 }
 .second {
   font-size: 5rem;
+  color: rgba(255, 68, 0, 0.646);
 }
 .third {
   font-size: 5rem;
+  color: red;
 }
 .text {
   margin-top: 5px;
   width: 35%;
-  height: 2rem;
+  height: 3rem;
   background-color: white;
+  border: 1px solid gray;
+}
+.text:active {
   border: 1px solid black;
 }
 .btn-getstarted {
-  height: 2rem;
+  height: 3rem;
   width: 10%;
   background-color: red;
   color: white;
@@ -82,6 +87,11 @@
   padding-left: 2px;
   padding-top: 2px;
   width: 25%;
+  box-shadow: 5px 10px 10px grey;
+}
+.show-panel img:hover {
+  transform: scale(1.1);
+  transition: transform 1s ease-in-out;
 }
 .para3 {
   font-size: 1.5rem;
@@ -92,7 +102,7 @@
   width: 70%;
   display: flex;
   justify-content: flex-start;
-  padding-left: 21%;
+  padding-left: 25%;
 }
 .des {
   display: flex;
@@ -120,7 +130,7 @@
   width: 50%;
   margin-bottom: 20px;
   margin-left: 25%;
-  margin-top: 10px;
+  margin-top: 20px;
   background-color: red;
 }
 .firstques h1 {
@@ -131,7 +141,8 @@
 }
 .hr {
   margin-top: 20px;
-  height: 10px;
+  height: 5px;
+  border: 2px solid black;
   background-color: grey;
 }
 .ques {
@@ -141,14 +152,24 @@
   font-size: 1.5rem;
 }
 .footer {
+  width: 70%;
+  margin: auto;
+
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .footer li a {
   text-decoration: none;
-  color: white;
-  font-size: 20px;
+  color: rgba(255, 255, 255, 0.507);
+
   padding-left: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer li a:hover {
+  color: white;
 }
