@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-image: url(background.jpg); */
+  background-color: black;
+}
+
+.navlist {
+  display: flex;
+}
+.navlist li {
+  width: 50%;
+}
+.navlist li img {
+  max-width: 21%;
+  margin: 20px 113px;
+}
+.navlist li button {
+  font-size: 15px;
+  padding: 4px 10px;
+  margin: 20px 100px;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  text-align: end;
+  position: relative;
+  left: 60%;
+}
+.intro {
+  margin-top: 10%;
+  text-align: center;
+  color: white;
+  height: 100vh;
+}
+.first {
+  font-size: 5rem;
+}
+.second {
+  font-size: 5rem;
+}
+.third {
+  font-size: 5rem;
+}
+.text {
+  margin-top: 5px;
+  width: 35%;
+  height: 2rem;
+  background-color: white;
+  border: 1px solid black;
+}
+.btn-getstarted {
+  height: 2rem;
+  width: 10%;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+.para1 {
+  margin-top: 5px;
+  font-size: 1.5rem;
+}
+.para2 {
+  padding-top: 1%;
+  font-size: 2rem;
+}
+.fourth {
+  margin-top: 20px;
+  padding-top: 10%;
+  font-size: 5rem;
+}
+.show-panel {
+  padding-top: 5%;
+  margin: auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.show-panel img {
+  padding-left: 2px;
+  padding-top: 2px;
+  width: 25%;
+}
+.para3 {
+  font-size: 1.5rem;
+}
+.fifth {
+  margin-top: 50px;
+  font-size: 60px;
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 21%;
+}
+.des {
+  display: flex;
+
+  margin-left: 26%;
+  font-size: 35px;
+  padding-top: 3%;
+}
+.des img {
+  width: 4%;
+}
+.tick1para {
+  padding-left: 28%;
+  width: 50%;
+  font-size: 23px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sixth {
+  margin-top: 5rem;
+  font-size: 4rem;
+}
+.firstques {
+  border: 2px solid grey;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  margin-top: 10px;
+  background-color: red;
+}
+.firstques h1 {
+  /* margin-top: 20px; */
+  text-align: start;
+  font-size: 2rem;
+  /* padding-bottom: 20px; */
+}
+.hr {
+  margin-top: 20px;
+  height: 10px;
+  background-color: grey;
+}
+.ques {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 1.5rem;
+}
+.footer {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
