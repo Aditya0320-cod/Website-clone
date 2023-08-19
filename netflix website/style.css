@@ -234,12 +234,15 @@
   }
 }
 .mainsite {
-  font-size: 2rem;
   margin-top: 20px;
-  text-decoration: none;
-  color: black;
+  font-size: 30px;
   background-color: whitesmoke;
 }
-.mainsite:active {
+.mainsite a {
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: black;
+}
+.mainsite a:active {
   color: red;
 }
